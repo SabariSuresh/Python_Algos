@@ -10,6 +10,8 @@ def bin_to_decimal(bin_string: str) -> int:
     -29
     >>> bin_to_decimal("0")
     0
+    >>> bin_to_decimal("1")
+    1
     >>> bin_to_decimal("a")
     Traceback (most recent call last):
         ...
