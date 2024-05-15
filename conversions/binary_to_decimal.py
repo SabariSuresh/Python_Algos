@@ -14,6 +14,14 @@ def bin_to_decimal(bin_string: str) -> int:
     Traceback (most recent call last):
         ...
     ValueError: Non-binary value was passed to the function
+    >>> bin_to_decimal("--101001")
+    Traceback (most recent call last):
+        ...
+    ValueError: Non-binary value was passed to the function
+    >>> bin_to_decimal("-1*0?1")
+    Traceback (most recent call last):
+        ...
+    ValueError: Non-binary value was passed to the function
     >>> bin_to_decimal("")
     Traceback (most recent call last):
         ...
